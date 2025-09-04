@@ -1,0 +1,80 @@
+main { 
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section { 
+    margin-bottom: 2rem;
+    background-color: rgb(197, 194, 179);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px orange;
+}
+
+section h2 { 
+    text-align: center;
+    color: orange;
+    margin-bottom: 1.5rem;
+}
+
+section p { 
+    text-align: center;
+}
+
+.main-footer { 
+    background-color: rgb(29, 27, 30);
+    color: aliceblue;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 20dvh;
+}
+
+.btn { 
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover { 
+    background-color: orange;
+    transform: translateY(-2px);
+}
+
+.slogan-content { 
+    text-align: center;
+}
+
+.slogan { 
+    background: url(/img/cachorro-quente-bg.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 8px;
+    padding: 4rem 2rem;
+}
+
+.slogan img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: cover;
+}
+
+.foto-cantina { 
+    display: block;
+    margin: auto;
+    align-items: center;
+}
+
+.sobre { 
+    text-align: center;
+    
+}
