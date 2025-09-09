@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/carrinho.html">
 </head>
 <body>
     <header class="main-header">
@@ -18,6 +19,23 @@
         </nav>
     </header>
 
+    <section class="card-section">
+        <h2>Meu Pedido:</h2>
 
+            <div id="card-itens-container">
+                <p>Seu carrinho está vazio</p>
+            </div>
+            <div id="card-total">
+                <h3>Total: <span id="card-total-value"></span></h3>
+            </div>
+            <button id="checkout-btn">Finalizar Pedido via WhatsApp</button>
+            <button id="limpar-pedido">Limpar Tabela</button>
+    </section>
+
+    <footer class="main-footer">
+        <p>Desenvolvido por</p>
+    </footer>
+
+    <script src="/app/script.js"></script>
 </body>
 </html>
