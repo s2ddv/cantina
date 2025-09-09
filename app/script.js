@@ -51,20 +51,22 @@ document.addEventListener('DOMContentLoaded', () => {
             })
         }
         cardTotalValue.textContent = `R$ ${total.toFixed(2)}`;
-    }
 
-    checkoutBtn.addEventListener('click', () => { 
-            const numeroWhatsApp = '5515999999999';
+        checkoutBtn.addEventListener('click', () => { 
+            const numeroWhatsApp = '5515996279690';
             let mensagem = "Olá! Segue meu pedido! \n\n";
             cart.forEach(product => { 
                 mensagem += `- ${product.name} (R$ ${product.price.toFixed(2)})\n`
             });
             mensagem += `\n*Total: R$ ${total.toFixed(2)}*`;
 
-            const urlWhatsApp = `https://wa.me/${15999999999}?text=${encodeURIComponent(mensagem)}`;
+            const urlWhatsApp = `https://wa.me/${5515996279690}?text=${encodeURIComponent(mensagem)}`;
             window.open(urlWhatsApp, '_blank');
             localStorage.removeItem('cart');
+            location.reload()
         });
+    }
+
     const limparTabela = document.getElementById('limpar-pedido');
     if (limparTabela) {
         limparTabela.addEventListener('click', () => { 
